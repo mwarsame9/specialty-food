@@ -1,51 +1,50 @@
 class ReviewsController < ApplicationController
-  def index
-    @reviews = Review.all
-  end
-
-  def show
-    @review = Review.find(params[:id])
-  end
 
   def new
-    @review = Review.new
+    @product = Product.find(params[:product_id])
+    @review = @product.reviews.new
   end
 
   def create
-    @review = Review.new(review_params)
+    @product = Product.find(params[:product_id])
+    @review = @product.reviews.new(review_params)
     if @review.save
-    flash[:notice] = "Review successfully added!"
-      redirect_to  reviews_path
+      redirect_to product_path(@review.product)
     else
       render :new
     end
   end
 
+  def show
+    @review = Review.find(params[:id])
+    @product = @review.product
+  end
+
   def edit
     @review = Review.find(params[:id])
+    @product = @review.product
   end
 
   def update
-    @review= Review.find(params[:id])
+    @review = Review.find(params[:id])
     if @review.update(review_params)
       flash[:notice] = "Review successfully updated!"
-      redirect_to reviews_path
+      redirect_to product_path(@review.product)
     else
       render :edit
     end
   end
 
   def destroy
-    @review = Review.find(params[:id])
-    if @review.destroy
+    @product = Review.find(params[:id]).product
+    if Review.find(params[:id]).destroy
       flash[:notice] = "Review successfully removed!"
-      redirect_to reviews_path
+     redirect_to product_path(@product)
     end
   end
 
 private
   def review_params
-    # Use strict parameters, replace placeholder info below with your class' actual attributes
-    params.require(:review).permit(:attribute1, :attribute2, :attribute3)
+    params.require(:review).permit(:content, :rating, :product_id)
   end
 end
