@@ -12,7 +12,7 @@ Review.destroy_all
 
 250.times do |index|
   Review.create!(author: Faker::Name.first_name,
-                content: Faker::Friends.quote,
+                content: Faker::Hipster.sentence(10),
                 rating: Faker::Number.between(1, 5),
                 product_id: Faker::Number.between(1, 50))
 end

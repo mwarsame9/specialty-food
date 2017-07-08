@@ -1,5 +1,26 @@
 <h1>Products</h1>
 
+  <a><h5>Products with the most reviews:</h5></a>
+  <ul>
+    <% @products.most_reviews.each do |product| %>
+      <li><%= link_to product.name, product_path(product) %></li>
+    <% end %>
+  </ul>
+
+  <a><h5>Products recently added:</h5></a>
+  <ul>
+    <% @products.most_recent.each do |product| %>
+      <li><%= link_to product.name, product_path(product) %></li>
+    <% end %>
+  </ul>
+
+  <a><h5>Products made in the United States:</h5></a>
+  <ul>
+    <% @products.usa_made.each do |product| %>
+      <li><%= link_to product.name, product_path(product) %></li>
+    <% end %>
+  </ul>
+<a><h5>All Products:</h5></a>
 <ul>
   <% @products.each do |product| %>
     <li><%= link_to product.name, product_path(product) %></li>
