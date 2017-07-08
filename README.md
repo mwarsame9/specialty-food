@@ -1,24 +1,36 @@
-# README
+# _Specialty Food_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _This is an application for a specialty foods store. It allows a user to add a product and details. The user can add, view, update, and delete products as well as leave reviews. The application also includes functionality to filter for products with most reviews, recently added, and ones produced in USA._
 
-Things you may want to cover:
+#### By _**Mohamed Warsame **_
 
-* Ruby version
+## Setup/Installation Requirements
 
-* System dependencies
+* _Clone the repo_
+* _Run the following commands in the root of the project to set up the application_
+```
+$ bundle install
+$ rails db:create
+$ rails db:schema:load
+$ rails db:seed
+$ rails s
+```
 
-* Configuration
+## Technologies Used
 
-* Database creation
+* _HTML5/SCSS_
+* _Rails_
+* _Ruby_
+* _Rspec_
+* _Capybara_
+* _Faker_
 
-* Database initialization
+<!-- ## View
+_landing page:_
+![]() -->
 
-* How to run the test suite
+### License
 
-* Services (job queues, cache servers, search engines, etc.)
+*This is web page is licensed under the MIT License.*
 
-* Deployment instructions
-
-* ...
+Copyright (c) 2017 **_Mohamed Warsame_**
