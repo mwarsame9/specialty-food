@@ -1,0 +1,26 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.navbar-nav {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height-max: 150px;
+  height: 40px;
+}
+.nav-content {
+  color: red;
+  margin-top: 10px;
+}
+
+.container {
+  color: red;
+  margin-top: 1px;
+}
+
+.store-name {
+  font-size: 18px;
+  color: red;
+  float: right;
+  margin-top: 0px;
+}

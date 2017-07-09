@@ -9,6 +9,25 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="collapse navbar-collapse navbar-inverse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <div class="nav-content">
+          <%= link_to "Home", root_path %> |
+          <%= link_to "New Product", new_product_path %>
+          <span class="store-name">Specialty Food</span>
+        </div>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <%= yield %>
+        </div>
+        <div class="col-md-6">
+          <p class="notice"><%= notice %></p>
+          <p class="alert"><%= alert %></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
