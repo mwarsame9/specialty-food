@@ -1,36 +1,17 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/specialty_food/spec/models/product_spec.rb": [
-        1,
-        null,
-        1,
-        2,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/Guest/Desktop/specialty_food/spec/rails_helper.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
+      "/Users/Guest/Desktop/specialty-food/spec/features/add_product_spec.rb": [
         1,
         null,
         1,
         1,
-        null,
-        null,
         1,
-        null,
-        null,
         1,
-        null,
         1,
-        null,
+        1,
+        1,
+        1,
         1,
         null,
         null,
@@ -41,14 +22,44 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/environment.rb": [
+      "/Users/Guest/Desktop/specialty-food/spec/rails_helper.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/specialty_food/config/application.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/application.rb": [
         1,
         null,
         1,
@@ -81,12 +92,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/boot.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/specialty_food/config/environments/test.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/environments/test.rb": [
         1,
         null,
         null,
@@ -130,7 +141,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/application_controller_renderer.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -138,7 +149,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -154,7 +165,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -163,20 +174,20 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/Guest/Desktop/specialty-food/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -194,13 +205,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -216,7 +227,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/config/routes.rb": [
+      "/Users/Guest/Desktop/specialty-food/config/routes.rb": [
         1,
         null,
         1,
@@ -228,11 +239,57 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/specialty-food/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/app/models/product.rb": [
+      "/Users/Guest/Desktop/specialty-food/spec/features/add_review_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/spec/models/product_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/app/models/product.rb": [
         1,
         1,
         1,
@@ -244,52 +301,162 @@
         null,
         null,
         null,
+        6,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
+        7,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/spec/models/review_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/app/models/review.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/specialty-food/app/controllers/products_controller.rb": [
+        1,
+        1,
+        6,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        4,
+        null,
+        null,
+        1,
+        4,
+        4,
+        3,
+        3,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
         0,
         null,
         null,
         1,
         0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
         null,
         null,
         1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        4,
         null,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/app/models/application_record.rb": [
+      "/Users/Guest/Desktop/specialty-food/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/specialty_food/spec/models/review_spec.rb": [
+      "/Users/Guest/Desktop/specialty-food/app/controllers/reviews_controller.rb": [
         1,
         null,
         1,
         2,
         2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        null
-      ],
-      "/Users/Guest/Desktop/specialty_food/app/models/review.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
         1,
+        2,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1499482520
+    "timestamp": 1499642252
   }
 }
