@@ -2,7 +2,7 @@
 
 #### _This is an application for a specialty foods store. It allows a user to add a product and details. The user can add, view, update, and delete products as well as leave reviews. The application also includes functionality to filter for products with most reviews, recently added, and ones produced in USA._
 
-#### By _**Mohamed Warsame **_
+#### By **_Mohamed Warsame_**
 
 ## Setup/Installation Requirements
 
