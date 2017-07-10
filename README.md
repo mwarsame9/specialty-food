@@ -25,10 +25,6 @@ $ rails s
 * _Capybara_
 * _Faker_
 
-<!-- ## View
-_landing page:_
-![]() -->
-
 ### License
 
 *This is web page is licensed under the MIT License.*
